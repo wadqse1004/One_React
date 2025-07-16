@@ -7,7 +7,7 @@ const List = ( {todos} ) => {
     const [search, setSearch] = useState("");
 
     const onChangeSearch = (e) => {
-        setSea;rch(e.target.value);
+        setSearch(e.target.value);
     }
 
     const getFilteredData = () => {
