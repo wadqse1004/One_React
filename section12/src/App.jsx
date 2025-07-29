@@ -3,7 +3,7 @@ import "./App.css";
 import New from './pages/New';
 import Diary from './pages/Diary';
 import Notfound from './pages/Notfound';
-import Home from './pages/home';
+import Home from './pages/Home';
 import Edit from './pages/Edit';
 import { act, useReducer, useRef, createContext, useEffect, useState } from 'react';
 
