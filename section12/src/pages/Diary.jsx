@@ -4,6 +4,7 @@ import Button from '../component/Button';
 import Viewer from '../component/Viewer';
 import useDiary from '../Hooks/useDiary';
 import { getSettingDate } from '../util/get-stringed-date';
+import usePageTitle from '../Hooks/usePageTitle';
 
 const Diary = () => {
     const params = useParams();
